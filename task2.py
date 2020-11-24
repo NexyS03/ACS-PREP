@@ -32,3 +32,6 @@ while True:
 total_paint = ((r_length * r_width - un_length * un_width) * num_coats) / 11
 print("The total amount of paint required to paint the room is: ", total_paint, "liters.")
 
+## ACS - A good firts effort
+## ACS - Your code needs comments
+## ACS - Don't use break .. loops should neveer be infinite and crashed out of!

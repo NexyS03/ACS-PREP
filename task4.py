@@ -19,3 +19,6 @@ print("The number of book(s) left over is ", books_left)
 
 name = input("Enter a name: ")
 print("The length of the name is: " + str(len(name)))
+
+## ACS - Code doens't work
+## Needs comments

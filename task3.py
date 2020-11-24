@@ -19,3 +19,7 @@ while True:
 gallon = liters * 4.546
 miles_gallon = float(now_ma - pre_ma) / gallon
 print("The number of miles per gallon is : ",miles_gallon)
+
+
+### ACS - Logically correct
+### ACS - Needs comment sin the code.
