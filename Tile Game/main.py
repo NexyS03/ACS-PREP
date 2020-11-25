@@ -20,11 +20,11 @@ height = 1000
 screen = pygame.display.set_mode((width, height))
 
 pygame.display.set_caption("Tile Game")
-
+'''
 class Game(pygame.sprite.Sprite):
-    def __init__(self,levels):
-
-class Player(Game):
+    def __init__(self):
+'''
+class Player(pygame.sprite.Sprite):
     def __init__(self, x, y, color, width, height):
         super().__init__()
         self.image = pygame.Surface([width, height])
@@ -43,7 +43,7 @@ class Player(Game):
         pass
 
 
-class OuterWall(Game):
+class OuterWall(pygame.sprite.Sprite):
     def __init__(self, x, y, width, height):
         super().__init__()
         self.image = pygame.Surface([width, height])
@@ -52,10 +52,17 @@ class OuterWall(Game):
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
+'''
     def update(self):
+
+class Level(Game):
+    def __init__(self,level):
+'''
+'''
 class InnerWall(OuterWall):
     def __init__(self,durability):
         super().__init__()
+'''
 map1 = [
     (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
     (1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1),
